@@ -27,13 +27,15 @@ The dataset used in this project consists of historical sales data from Walmart,
 - Implement regression models to predict sales and identify key features that influence sales performance
 
 ## Key Insights
+- 3 clusters might be the optimal number of clusters for this dataset.
+- With the use of the Random Forest model to calculate the feature importance, unemployment rate, CPI, and fuel price were found to be the most influential factors in predicting Walmart weekly sales.
 
-
-
-
-## Conclusion
-
-
+## Limitations
+- Limited features: The dataset provided only a narrow set of economic factors, missing key variables like promotions, store characteristics, etc.
+- Static snapshot: The analysis lacks temporal context, making it difficult to capture seasonal trends and evolving sales patterns over time.
+- Weak correlations between variables: The variables used in the model have weak correlations with weekly sales, limiting their predictive power and potentially reducing the model’s overall accuracy.
+- Cluster homogeneity: K-Means clusters may contain both high- and low-performing stores due to assumptions about uniformity that may not hold in sales data.
+- Potential overfitting: The Random Forest model may risk overfitting to the training data, potentially reducing performance on unseen data.
 
 ## Next Steps
 
