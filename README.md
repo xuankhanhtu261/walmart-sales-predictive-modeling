@@ -24,7 +24,7 @@ The dataset used in this project consists of historical sales data from Walmart,
 - Use K-Means clustering to segment stores based on sales data
 
 4. Machine Learning
-- Implement regression models to predict sales and identify key features that influence sales performance
+- Implement regression model and Random Forest model to predict sales and identify key features that influence sales performance
 
 ## Key Insights
 - 3 clusters might be the optimal number of clusters for this dataset.
@@ -38,7 +38,9 @@ The dataset used in this project consists of historical sales data from Walmart,
 - Potential overfitting: The Random Forest model may risk overfitting to the training data, potentially reducing performance on unseen data.
 
 ## Next Steps
-
+- Incorporate addtional features (e.g., regional demographic data)
+- Test alternative clustering algorithms
+- Apply other models (e.g., time-series models)
 
 
 
